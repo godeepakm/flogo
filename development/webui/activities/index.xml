@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Activities on Project Flogo - Docs and Tutorials</title>
+    <link>https://tibcosoftware.github.io/flogo/development/webui/activities/</link>
+    <description>Recent content in Activities on Project Flogo - Docs and Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://tibcosoftware.github.io/flogo/development/webui/activities/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reply</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/actreply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/actreply/</guid>
+      <description>Reply This activity allows you to reply to a trigger invocation and map output values. After replying to the trigger, this activity will allow the flow to continue further.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/actreply  Schema Input and Output:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;mappings&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;, &amp;quot;required&amp;quot;: true, &amp;quot;display&amp;quot;: { &amp;quot;name&amp;quot;: &amp;quot;Mapper&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;mapper&amp;quot;, &amp;quot;mapperOutputScope&amp;quot; : &amp;quot;action.</description>
+    </item>
+    
+    <item>
+      <title>Return</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/actreturn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/actreturn/</guid>
+      <description>Return This activity allows you to reply to a trigger invocation and map output values. After replying to the trigger, the flow ends (this will be the last actvity in your flow).
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/actreply  Schema Input and Output:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;mappings&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;, &amp;quot;required&amp;quot;: true, &amp;quot;display&amp;quot;: { &amp;quot;name&amp;quot;: &amp;quot;Mapper&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;mapper&amp;quot;, &amp;quot;mapperOutputScope&amp;quot; : &amp;quot;action.</description>
+    </item>
+    
+    <item>
+      <title>Aggregate</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/aggregate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/aggregate/</guid>
+      <description>Aggregate This activity allows you to aggregate data and calculate an average or sliding average.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/aggregate  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;function&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true, &amp;quot;allowed&amp;quot; : [&amp;quot;block_avg&amp;quot;, &amp;quot;moving_avg&amp;quot;, &amp;quot;timeblockavg&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;windowSize&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;result&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;report&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;boolean&amp;quot; } ] }  Settings    Setting Required Description     function True The aggregate fuction, currently only average is supported   windowSize True The window size of the values to aggregate   value False The value to aggregate    Example The below example aggregates a &amp;lsquo;temperature&amp;rsquo; attribute with a moving window of size 5:</description>
+    </item>
+    
+    <item>
+      <title>Aggregate</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/aggregate_old/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/aggregate_old/</guid>
+      <description>Aggregate This activity allows you to aggregate data and calculate an average or sliding average.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/aggregate  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;function&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true, &amp;quot;allowed&amp;quot; : [&amp;quot;block_avg&amp;quot;, &amp;quot;moving_avg&amp;quot;, &amp;quot;timeblockavg&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;windowSize&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;result&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;report&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;boolean&amp;quot; } ] }  Settings    Setting Required Description     function True The aggregate fuction, currently only average is supported   windowSize True The window size of the values to aggregate   value False The value to aggregate    Example The below example aggregates a &amp;lsquo;temperature&amp;rsquo; attribute with a moving window of size 5:</description>
+    </item>
+    
+    <item>
+      <title>Channel</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/channel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/channel/</guid>
+      <description> Channel This activity allows you to put a value on a named channel in the flogo engine.
+Installation Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/channel  Schema Inputs and Outputs:
+{ &amp;quot;settings&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;channel&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true } ], &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;channel&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;interface{}&amp;quot; } ], &amp;quot;output&amp;quot;: [ ] }  Settings    Setting Required Description     channel True The channel to put the value on    </description>
+    </item>
+    
+    <item>
+      <title>Filter</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/filter/</guid>
+      <description>Filter This activity allows you to filter out data in a streaming pipeline, can also be used in flows.
+Installation Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/filter  Schema Settings, Inputs and Outputs:
+{ &amp;quot;settings&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;type&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true, &amp;quot;allowed&amp;quot; : [&amp;quot;non-zero&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;proceedOnlyOnEmit&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;boolean&amp;quot; } ], &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;filtered&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;boolean&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; } ] }  Settings    Setting Required Description     type True The type of filter to apply [ex.</description>
+    </item>
+    
+    <item>
+      <title>App</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/app/</guid>
+      <description>App This activity allows you to set and use global attributes throughout your app.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/actreply  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;attribute&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;operation&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot; : true, &amp;quot;allowed&amp;quot; : [&amp;quot;ADD&amp;quot;,&amp;quot;GET&amp;quot;,&amp;quot;UPDATE&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;type&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;allowed&amp;quot; : [	&amp;quot;string&amp;quot;, &amp;quot;integer&amp;quot;, &amp;quot;number&amp;quot;, &amp;quot;boolean&amp;quot;, &amp;quot;object&amp;quot;, &amp;quot;array&amp;quot;, &amp;quot;params&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; } ] }  Settings    Setting Required Description     attribute True The name of the attribute   operation True The operation to perform   type False The type of the attribute, only used with NEW operation   value (input) False The value of the attribute, only used with ADD and UPDATE   value (output)  The returned value of the attribute, only used with GET and UPDATE    Configuration Examples New Add a new &amp;lsquo;myAttr&amp;rsquo; attribute of type string with the initial value of foo:</description>
+    </item>
+    
+    <item>
+      <title>AWS IoT</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/awsiot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/awsiot/</guid>
+      <description>AWS IoT This activity allows you to update a device shadow on AWS.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/awsiot  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;thingName&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;awsEndpoint&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;desired&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;params&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;reported&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;params&amp;quot; } ] }  Settings    Setting Required Description     thingName True The name of the &amp;ldquo;thing&amp;rdquo; in Aws IoT   awsEndpoint True The Aws Iot Endpoint for the account   desired False The desired state to update   reported False The reported state to update    Configuration Certificate Installation The activity looks for the AWS device certificates in a &amp;ldquo;things&amp;rdquo; directory relative to where the engine was started.</description>
+    </item>
+    
+    <item>
+      <title>Amazon SNS</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/awssns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/awssns/</guid>
+      <description>Amazon SNS This activity allows you to send SMS text messages using Amazon Simple Notification Services.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/awssns  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;accessKey&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: &amp;quot;true&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;secretKey&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: &amp;quot;true&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;region&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: &amp;quot;true&amp;quot;, &amp;quot;allowed&amp;quot; : [&amp;quot;us-east-2&amp;quot;,&amp;quot;us-east-1&amp;quot;,&amp;quot;us-west-1&amp;quot;,&amp;quot;us-west-2&amp;quot;,&amp;quot;ap-south-1&amp;quot;,&amp;quot;ap-northeast-2&amp;quot;,&amp;quot;ap-southeast-1&amp;quot;,&amp;quot;ap-southeast-2&amp;quot;,&amp;quot;ap-northeast-1&amp;quot;,&amp;quot;cn-northwest-1&amp;quot;,&amp;quot;ca-central-1&amp;quot;,&amp;quot;eu-central-1&amp;quot;,&amp;quot;eu-west-1&amp;quot;,&amp;quot;eu-west-2&amp;quot;,&amp;quot;sa-east-1&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;smsType&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;allowed&amp;quot; : [&amp;quot;Promotional&amp;quot;, &amp;quot;Transactional&amp;quot;], &amp;quot;value&amp;quot;: &amp;quot;Promotional&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;from&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: &amp;quot;true&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;to&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: &amp;quot;true&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;message&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: &amp;quot;true&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;messageId&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; } ] }  Settings    Setting Required Description     accessKey True Your Amazon access key ID   secretKey True Your Amazon secret sccess Key   region True The default AWS region to use.</description>
+    </item>
+    
+    <item>
+      <title>CoAP</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/coap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/coap/</guid>
+      <description>CoAP This activity allows you to send a CoAP message.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/coap  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;uri&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;method&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true, &amp;quot;allowed&amp;quot; : [&amp;quot;GET&amp;quot;, &amp;quot;POST&amp;quot;, &amp;quot;PUT&amp;quot;, &amp;quot;DELETE&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;queryParams&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;params&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;type&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;messageId&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;options&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;params&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;payload&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;response&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; } ] }  Settings    Setting Required Description     uri True The CoAP resource URI   method True The CoAP method (Accepted values are POST, GET, PUT, and DELETE)   queryParams False The query parameters   type False Message Type (Confirmable, NonConfirmable, Acknowledgement, Reset)   messageId False ID used to detect duplicates and for optional reliability   options False CoAP options   payload False The message payload    Example The below example sends a &amp;ldquo;hello world&amp;rdquo; message via CoAP:</description>
+    </item>
+    
+    <item>
+      <title>Coachbase</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/couchbase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/couchbase/</guid>
+      <description>Couchbase This activity allows you to connect to a Couchbase server
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/couchbase  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;key&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;data&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;method&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;allowed&amp;quot;: [ &amp;quot;Insert&amp;quot;, &amp;quot;Upsert&amp;quot;, &amp;quot;Remove&amp;quot;, &amp;quot;Get&amp;quot; ], &amp;quot;value&amp;quot;: &amp;quot;Insert&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;expiry&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot;, &amp;quot;value&amp;quot;: 0, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;server&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;username&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;password&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;bucket&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;bucketPassword&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;output&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; } ] }  Settings    Setting Required Description     key True The document key identifier   data False The document data (when the method is get this field is ignored)   method True The method type (Insert, Upsert, Remove or Get).</description>
+    </item>
+    
+    <item>
+      <title>Counter</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/counter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/counter/</guid>
+      <description>Counter This activity allows you to use a global counter.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/counter  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;counterName&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;increment&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;boolean&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;reset&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;boolean&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot; } ] }  Settings    Setting Required Description     counterName True The name of the counter   increment False If this field is set to true, increment the counter by one   reset False Reset the counter.</description>
+    </item>
+    
+    <item>
+      <title>Error</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/error/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/error/</guid>
+      <description>Error This activity allows you to cause an explicit error in the flow (throw an error).
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/error  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;message&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;data&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot; } ], &amp;quot;output&amp;quot;: [ ] }  Settings    Setting Required Description     message False The error message you want to throw   data False The error data you want to throw    Configuration Examples The below example throws a simple error with a message:</description>
+    </item>
+    
+    <item>
+      <title>GPIO</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/gpio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/gpio/</guid>
+      <description>GPIO This activity allows you to control the GPIO pins on a Raspberry Pi
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/gpio  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;method&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true, &amp;quot;allowed&amp;quot; : [&amp;quot;Direction&amp;quot;, &amp;quot;Set State&amp;quot;, &amp;quot;Read State&amp;quot;, &amp;quot;Pull&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;pinNumber&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;direction&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;allowed&amp;quot; : [&amp;quot;Input&amp;quot;, &amp;quot;Output&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;state&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;allowed&amp;quot; : [&amp;quot;High&amp;quot;, &amp;quot;Low&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;Pull&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;allowed&amp;quot; : [&amp;quot;Up&amp;quot;, &amp;quot;Down&amp;quot;, &amp;quot;Off&amp;quot;] } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;result&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot; } ] }  Settings    Setting Required Description     method True The method to take action for specified pin (Allowed values are Direction, Set State, Read State, and Pull)   pinNumber True The pin number of the GPIO   direction False Set the direction of the pin (Allowed values are Input and Output)   state False Set the state of the pin (Allowed values are High and Low)   Pull False Pull the pin to the specified value (Allowed values are Up, Down, and Off)   result False The result of the operation    Examples Get pin state The below example retrieves the state of pin 23:</description>
+    </item>
+    
+    <item>
+      <title>Publish Kafka Message</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/kafkapub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/kafkapub/</guid>
+      <description>Publish Kafka Message This activity allows you to send a Kafka message
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/kafkapub  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;BrokerUrls&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;Topic&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;Message&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;user&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: false }, { &amp;quot;name&amp;quot;: &amp;quot;password&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: false }, { &amp;quot;name&amp;quot;: &amp;quot;truststore&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: false } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;partition&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;int&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;offset&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;long&amp;quot; } ] }  Settings    Setting Required Description     BrokerUrls True The Kafka cluster to connect to   Token True The Kafka topic on which to place the message   Message True The text message to send   user False If connectiong to a SASL enabled port, the userid to use for authentication   password False If connectiong to a SASL enabled port, the password to use for authentication   truststore False If connectiong to a TLS secured port, the directory containing the certificates representing the trust chain for the connection.</description>
+    </item>
+    
+    <item>
+      <title>Trigger Lambda Function</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/lambda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/lambda/</guid>
+      <description>Trigger Lambda function This activity allows you to invoke an AWS Lambda function via ARN and provide the access key and secret for authentication.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/lambda  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;arn&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;region&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;accessKey&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot; : false }, { &amp;quot;name&amp;quot;: &amp;quot;secretKey&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot; : false }, { &amp;quot;name&amp;quot;: &amp;quot;payload&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot;, &amp;quot;required&amp;quot; : true } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;result&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;status&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot; } ] }  Settings    Setting Required Description     arn True The ARN of the Lambda function to invoke   region True The AWS region in which you want to invoke the function   accessKey False AWS access key for the user to invoke the function   secretKey False AWS secret key for the user to invoke te function   payload True The payload to send to the function.</description>
+    </item>
+    
+    <item>
+      <title>Log</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/log/</guid>
+      <description>Log This activity allows you to write log messages.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/log  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;message&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;flowInfo&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;boolean&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;false&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;addToFlow&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;boolean&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;false&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;message&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; } ] }  Settings    Setting Required Description     message False The message to log   flowInfo False If set to true this will append the flow information to the log message   addToFlow False If set to true this will add the log message to the &amp;lsquo;message&amp;rsquo; output of the activity and make it available in further activities   message False The message that was logged    Examples The below example logs a message &amp;lsquo;test message&amp;rsquo;:</description>
+    </item>
+    
+    <item>
+      <title>Mapper</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/mapper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/mapper/</guid>
+      <description>Mapper This activity allows you to map values to the working attribute set of a flow.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/mapper  Schema Input and Output:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;mappings&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;, &amp;quot;required&amp;quot;: true, &amp;quot;display&amp;quot;: { &amp;quot;name&amp;quot;: &amp;quot;Mapper&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;mapper&amp;quot;, &amp;quot;mapperOutputScope&amp;quot; : &amp;quot;action&amp;quot; } } ], &amp;quot;output&amp;quot;: [ ] }  Settings    Setting Required Description     mappings True An array of mappings that are executed when the activity runs    Example The below example allows you to configure the activity to reply and set the output values to literals &amp;ldquo;name&amp;rdquo; (a string) and 2 (an integer).</description>
+    </item>
+    
+    <item>
+      <title>ML Model Inference</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/inference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/inference/</guid>
+      <description>Inference This activity enables the inferencing of Machine Learning models within Flogo applications. This activity was built with a framework contribution model concept. The implemented framework is TensorFlow.
+For detailed instructions, refer to the Flogo Documentation.
+Installation Flogo Web This activity does not come pre-installed with the Web UI for a number of reasons, such as, the size, the requirement of TensorFlow lib and also the fact that it is an activity that is commonly used on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/rest/</guid>
+      <description>REST This activity allows you to invoke a REST service.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/rest  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;method&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true, &amp;quot;allowed&amp;quot; : [&amp;quot;GET&amp;quot;, &amp;quot;POST&amp;quot;, &amp;quot;PUT&amp;quot;, &amp;quot;PATCH&amp;quot;, &amp;quot;DELETE&amp;quot;] }, { &amp;quot;name&amp;quot;: &amp;quot;uri&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;proxy&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: false }, { &amp;quot;name&amp;quot;: &amp;quot;pathParams&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;params&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;queryParams&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;params&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;header&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;params&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;skipSsl&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;boolean&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;false&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;content&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;result&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;status&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot; } ] }  Settings    Setting Required Description     method True The HTTP method to invoke (Allowed values are GET, POST, PUT, DELETE, and PATCH)   uri True The URI of the service to invoke   proxy False The address of the proxy server to be used   pathParams False The path parameters.</description>
+    </item>
+    
+    <item>
+      <title>Subflow</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/subflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/subflow/</guid>
+      <description>Subflow This activity allows you to start a subflow.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/subflow  Schema { &amp;quot;settings&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;flowURI&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true } ] }  The Input/Output schema is determined from the Input/Output metadata of the subflow that is being executed
+Settings    Setting Required Description     flowURI True The URI of the flow to execute    Examples The below example executes &amp;ldquo;mysubflow&amp;rdquo; and set its input values to literals &amp;ldquo;foo&amp;rdquo; and &amp;ldquo;bar&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Twilio</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/twilio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/twilio/</guid>
+      <description>Twilio This activity allows you to send a SMS via Twilio.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/twilio  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;accountSID&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;authToken&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;from&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;to&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;message&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; } ], &amp;quot;output&amp;quot;: [] }  Settings    Setting Required Description     accountSID False The Twilio account SID   authToken False The Twilio auth token   from False The Twilio number you are sending the SMS from   to False The number you are sending the SMS to.</description>
+    </item>
+    
+    <item>
+      <title>WebSocket Message</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/wsmessage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/wsmessage/</guid>
+      <description>Send WebSocket message This activity allows you to send a message to a WebSocket server.
+Installation Flogo Web This activity comes out of the box with the Flogo Web UI
+Flogo CLI flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/sendwsmessage  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;Server&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;Channel&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;Destination&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;Message&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;Username&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;Password&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;output&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; } ] }  Settings    Setting Required Description     Server False The WebSocket server to connect to (e.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://tibcosoftware.github.io/flogo/development/webui/activities/mongodb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/development/webui/activities/mongodb/</guid>
+      <description>MongoDB This activity allows you to connect to a MongoDB server
+Installation Flogo CLI flogo install github.com/TIBCOSoftware/flogo-contrib/activity/mongodb  Schema Inputs and Outputs:
+{ &amp;quot;input&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;uri&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;dbName&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;collection&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;method&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;, &amp;quot;allowed&amp;quot;: [ &amp;quot;DELETE&amp;quot;, &amp;quot;INSERT&amp;quot;, &amp;quot;REPLACE&amp;quot;, &amp;quot;UPDATE&amp;quot; ], &amp;quot;value&amp;quot;: &amp;quot;INSERT&amp;quot;, &amp;quot;required&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;keyName&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;keyValue&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;value&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; } ], &amp;quot;output&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;output&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;any&amp;quot; }, { &amp;quot;name&amp;quot;: &amp;quot;count&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;integer&amp;quot; } ] }  Settings    Setting Required Description     uri True The MongoDB connection URI   dbName True The name of the database   collection True The collection to work on   method True The method type (DELETE, INSERT, UPDATE or REPLACE).</description>
+    </item>
+    
+  </channel>
+</rss>
