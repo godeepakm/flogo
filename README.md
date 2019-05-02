@@ -38,6 +38,9 @@ Project Flogo is an ultra-light, Go-based open source ecosystem for building eve
   - process events in a manner suitable with the implementation
   - have a common interface enabling opinionated event processing capabilities
 
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgodeepakm%2Fflogo.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgodeepakm%2Fflogo?ref=badge_large)
+
 # Project Flogo Ecosystem
 
 All capabilities within the Flogo Ecosystem have a few things in common, they all process events (in a manner suitable for the specific purpose) and they all implement the *action* interface exposed by Flogo Core.
@@ -127,6 +130,7 @@ Flows Web UI is available via [Docker Hub](https://hub.docker.com/r/flogo/flogo-
 To report any issues with the Issue tracker on this project.
 
 ![Flogo Web In Action](images/flogo-web2.gif)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgodeepakm%2Fflogo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgodeepakm%2Fflogo?ref=badge_shield)
 
 # Flogo Streams
 
